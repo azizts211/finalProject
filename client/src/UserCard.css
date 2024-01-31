@@ -1,0 +1,52 @@
+/* UserCard.css */
+
+.user-card {
+    width: 18rem;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
+  
+  .user-card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .user-card-body {
+    padding: 1rem;
+  }
+  
+  .user-card-title {
+    font-size: 1.25rem;
+  }
+  
+  .user-card-subtitle {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .user-card-text {
+    margin-bottom: 1rem;
+  }
+  
+  .user-card-button {
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block; /* Inline the button */
+  }
+  
+  .user-card-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  .buttons{
+    display:flex
+  }
+  
